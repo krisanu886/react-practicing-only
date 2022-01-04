@@ -1,9 +1,11 @@
 import React,{useState} from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import './App.css'
+import Greeting from './Greeting';
 
 
-const myName ='Krisanu Dey';
+// const myName ='Krisanu Dey';
 // const fName = 'Krisanu';
 // const lName = 'Dey';
 
@@ -17,6 +19,23 @@ const myName ='Krisanu Dey';
 // const currentTime = new Date();
 // const time = currentTime.getHours() + ':' + currentTime.getMinutes() + ':' + currentTime.getSeconds();
 
+// let curDate = new Date(2022,5,5,14);
+// curDate = curDate.getHours();
+// let greeting = '';
+// const cssStyle = {};
+
+// if(curDate >=1 && curDate<12){
+//   greeting ='Good Morning';
+//   cssStyle.color = 'green'
+// }
+// else if(curDate >= 12 && curDate <= 19){
+//   greeting = 'Good Afternoon';
+//   cssStyle.color = 'orange'
+// }
+// else{
+//   greeting = 'Good Night';
+//   cssStyle.color = 'black'
+// }
 
 ReactDOM.render(
   <React.StrictMode>
@@ -48,8 +67,13 @@ ReactDOM.render(
     {/* 14 no video -------------- */}
 
     {/* 15 no video -------------- */}
-    <h1 contentEditable='true'>Hey, my name is {myName}</h1>
+    {/* <h1 contentEditable='true'>Hey, my name is {myName}</h1> */}
 
+    {/* 18 no video -------------- */}
+    {/* <h1 className='div'>Hey buddy, <span style={cssStyle}>{greeting}</span></h1> */}
+    
+    {/* 20 no video -------------- */}
+    {/* <Greeting/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
