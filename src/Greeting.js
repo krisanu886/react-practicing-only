@@ -1,6 +1,7 @@
 import React from 'react';
+import './App.css';
 
-let curDate = new Date(2022,5,5,14);
+let curDate = new Date();
 curDate = curDate.getHours();
 let greeting = '';
 const cssStyle = {};
