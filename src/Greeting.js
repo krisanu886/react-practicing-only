@@ -12,11 +12,11 @@ if(curDate >=1 && curDate<12){
 }
 else if(curDate >= 12 && curDate <= 19){
   greeting = 'Good Afternoon';
-  cssStyle.color = 'orange'
+  cssStyle.color = 'red'
 }
 else{
   greeting = 'Good Night';
-  cssStyle.color = 'black'
+  cssStyle.color = 'slategrey'
 }
 
 function Greeting(){
