@@ -12,6 +12,7 @@ const Form =() => {
     }
     const onClear = () => {
         setUpdateName('')
+        setName('');
     }
     return(
         <>

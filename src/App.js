@@ -6,6 +6,8 @@ import CurrentTime from './CurrentTime';
 import DigitalClock from './DigitalClock';
 import ButtonClick from './ButtonClick';
 import Form from './Form';
+import TwoForm from './TwoForm';
+import MultipleForm from './MultipleForm';
 
 
 const App = () => {
@@ -18,6 +20,8 @@ const App = () => {
       <DigitalClock/>
       <ButtonClick/>
       <Form/>
+      <TwoForm/>
+      <MultipleForm/>
     </>
   );
 }
