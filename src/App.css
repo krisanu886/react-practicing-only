@@ -2,7 +2,6 @@
 .div{
   background-color: black;
   color: white;
-  
   margin: auto;
   padding: auto;
   text-align: center;
@@ -28,6 +27,6 @@ input{
   color: rgb(255, 102, 0);
   background-color: rgb(236, 216, 236);
   border-radius: 10px;
-  
+  margin: 5px;
 }
 

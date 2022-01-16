@@ -8,6 +8,8 @@ import ButtonClick from './ButtonClick';
 import Form from './Form';
 import TwoForm from './TwoForm';
 import MultipleForm from './MultipleForm';
+import MultiProForm from './MultiProForm';
+
 
 
 const App = () => {
@@ -21,7 +23,8 @@ const App = () => {
       <ButtonClick/>
       <Form/>
       <TwoForm/>
-      <MultipleForm/>
+      <MultipleForm/> 
+      <MultiProForm/>
     </>
   );
 }
